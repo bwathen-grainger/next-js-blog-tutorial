@@ -1,6 +1,7 @@
-import styles from './alert.module.css'
+import styles from './alert.module.scss'
 import cn from 'classnames'
 
+// This uses the "classnames" package to mimic SvelteJS class directives
 export default function Alert({ children, type }) {
   return (
     <span
